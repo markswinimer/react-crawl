@@ -1,0 +1,23 @@
+td {
+    margin: 0;
+    padding: 0;
+}
+table { 
+    border-spacing: 0;
+}
+.Tile {
+    text-align: center;
+    min-width: 32px;
+    height: 32px;
+    background-color: silver;
+    border: 1px solid silver;
+    box-shadow: none;
+    filter: brightness(0);
+    cursor: default;
+}
+.color-cyan {
+    background-color: aqua;
+}
+.color-white {
+    background-color: white;
+}
