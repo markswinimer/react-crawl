@@ -8,7 +8,7 @@ function App() {
         <h1>React Crawl</h1>
 
       <div className="Game-container">
-      <Game 
+      <Game  
         n_rows={55}
         n_cols={55}
       />

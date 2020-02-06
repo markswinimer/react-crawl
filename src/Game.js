@@ -1,5 +1,6 @@
 import React from 'react';
 import Tile from './Tile';
+import './Game.css'
 import { generateDifficultyValue, getDifficultyColor } from './helperFunctions'
 
 class Game extends React.Component {
@@ -81,7 +82,7 @@ class Game extends React.Component {
     }
     
         return(
-            <div>
+            <div className='Game'>
                 <table>
                     <tbody>
                         {renderGameGrid}
