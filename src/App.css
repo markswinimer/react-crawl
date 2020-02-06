@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.Game-container {
+  margin: 10rem auto;
+  max-width: 1100px;
+  max-height: 600px;
+  overflow: scroll;
+  border: 10px solid silver;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
